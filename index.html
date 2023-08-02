@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/mimisicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mimi's Porch</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <img class="header__icon" src="public\mimisicon.png" />
+          <h4 class="header__title">Mimi's Porch</h4>
+        </div>
+        <ul class="header__menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about-us">About</a>
+          </li>
+          <li>
+            <a href="#products">Products</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="header-content__order-button">Custom Orders</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img src="public/bibleverse.jpg" alt="bible verse" />
+      </div>
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Mimi's Porch specializes in handcrafted home and holiday decor.</h1>
+            <p> Booth #153 in Lebanon Peddlers Mall. Custom designs available by request!</p>
+        </div>
+        <div class="hero-content__testimonial" data-aos="fade-up">
+          <div class="hero-content__customer flex-center">
+            <h4>134<span>+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+          <div class="hero-content__review">
+            <img src="public/customer.jpg" alt="user" />
+            <p>"Great custom products, would recommend Mimi's services to everyone!"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-hiphop3">
+          <img src="public/doghair.jpg" alt="doghair" /> 
+        </div>
+        <button class="about-us__button">Learn More
+          <img src="assets/arrow-up-right.svg" alt="learn more" />
+        </button>
+        <div class="about-us__image-hiphop2">
+          <img src="public/wplease.jpg" alt="wplease" /> 
+        </div>
+      </div>
+      <div class="about-us__content">
+        <p class="mimis__subtitle">
+          About Mimi's Porch
+        </p>
+        <h3 class="mimis__title"> Hand crafted home decor from Mimi to you. </h3>
+        <p class="mimis__description">Some crafts are made with reclaimed, salvaged, rescued, and recovered wood taken from old barns, buildings, factories, and homes. We inspect for insects, pests, and fungus but do not guarantee that the material is or will be 100% completely clean or insect free. We accept no liability or responsibility for damage, injury, or harm to persons, pets, or property. We do however stand behind the craftsmanship of every product.</p>
+      </div>
+    </section>
+
+    <section class="mimis-products" id="products">
+      <h2 class="mimis-products__title" data-aos="flip-up">Mimi's Porch Products</h2>
+      <div class="mimis-products__filters mimis-products__hide-scrollbar">
+        <button class="mimis-products__filter-btn active">All</button>
+        <button class="mimis-products__filter-btn">
+          <img src="public/pumpkin.jpg" alt="pumpkin"/>
+          Pumpkins
+        </button>
+        <button class="mimis-products__filter-btn">
+          <img src="public/wreath.jpg" alt="wreath"/>
+          Wreaths
+        </button>
+        <button class="mimis-products__filter-btn">
+          <img src="public/sign.jpg" alt="sign"/>
+          Signs
+        </button>
+        <button class="mimis-products__filter-btn">
+          <img src="public/misc.jpg" alt="misc"/>
+          Misc
+        </button>
+      </div>
+
+      <div class="mimis-products__catalogue" data-aos="fade-up">
+        <article class="mimis-products__card">
+          <img class="mimis-products__card-image" src="public/products1.jpg" alt="products" />
+          <h4 class="mimis-products__card-title">Hello Pumpkin</h4>
+  
+          <div class="mimis-products__card-details flex-between">
+            <div class="mimis-products__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+  
+            <p class="mimis-products__card-price">Inquire for price</p>
+          </div>
+        </article>
+
+        <article class="mimis-products__card active-card">
+          <img class="mimis-products__card-image" src="public/products2.jpg" alt="products" />
+          <h4 class="mimis-products__card-title">Blue Flowers</h4>
+  
+          <div class="mimis-products__card-details flex-between">
+            <div class="mimis-products__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.6</p>
+            </div>
+  
+            <p class="mimis-products__card-price">Inquire for price</p>
+          </div>
+        </article>
+
+        <article class="mimis-products__card">
+          <img class="mimis-products__card-image" src="public/products3.jpg" alt="products" />
+          <h4 class="mimis-products__card-title">Sunflower Wreath</h4>
+  
+          <div class="mimis-products__card-details flex-between">
+            <div class="mimis-products__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+  
+            <p class="mimis-products__card-price">Inquire for price</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="mimis-products__button">
+        Explore Products
+        <img src="assets/arrow-right.svg" alt="arrow-right" />
+      </button>
+    </section>
+
+    <section class="contact flex-center" id="contact">
+      <h2 data-aos="flip-down">Contact Mimi</h2>
+      <p data-aos="fade-up">Submit email for more information</p>
+
+      <div class="contact__form">
+        <input type="text" placeholder="Enter your email address" />
+        <button>Submit</button>
+      </div>
+      <!-- <div class="contact__form-info">Call us at: <a href="tel:+15555551212">0-000-000-0000</a> <br>
+      Email us at: Mimisporch@gmail.com</div> -->
+    </section>
+
+    <footer class="footer flex-between">
+      <h3 class="footer__logo">
+        <span>Mimi's</span>Porch
+      </h3>
+      <ul class="footer__nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+      </ul>
+    </footer>
+
+    
+    <script src="js/script.js" type="module"></script>  
+  </body>
+</html>

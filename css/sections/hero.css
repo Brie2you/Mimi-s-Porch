@@ -1,0 +1,109 @@
+.hero {
+    overflow: hidden;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+}
+
+.hero-content {
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-content-info {
+    padding: 48px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content-info h1 {
+    font-size: 40px;
+    font-weight: 600px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.hero-content-info p {
+    margin: 32px 0 0 32px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-content__buttons {
+    margin: 41px 0 0 41px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.hero-content__testimonial {
+    padding: 32px 64px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    background: var(--color-white) ;
+}
+
+.hero-content__customer {
+    flex: 1;
+    gap: 10px;
+}
+
+.hero-content__customer h4 {
+    font-size: 62px;
+    font-weight: 400;
+    font-family: var(--playfair-display);
+}
+
+.hero-content__customer p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary-color);
+    opacity: .5;
+}
+
+.hero-content__review {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding-left: 20px;
+    border-left: 1px solid;
+    min-width: 200px;
+}
+
+.hero-content__review img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.hero-content__review p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary-color);
+    opacity: .8;
+}
+
+

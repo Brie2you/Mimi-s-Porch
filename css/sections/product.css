@@ -1,0 +1,208 @@
+.mimis-products {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--primary-color);
+    background-image: url(../../public/bwwood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+
+    overflow: hidden;
+}
+
+.mimis-products__title {
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 78px;
+    color: black;
+    background-color: #b1454a;
+    border-radius: 50px;
+
+    /* -webkit-text-stroke: 1px  #b1454a99; */
+    
+    text-align: center;
+}
+
+.mimis-products__filters {
+    margin-top: 28px;
+    max-width: 100%;
+    overflow-x: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.mimis-products__filter-btn {
+    padding: 10px 28px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    background: #b1454a;
+    border: 1px solid rgba(255, 255, 255, .02);
+    border-radius: 50px;
+
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mimis-products__filter-btn img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.mimis-products__filter-btn.active {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.mimis-products__filter-btn:hover {
+    background: #fff;
+    color: var(--primary-color); 
+}
+
+.mimis-products__catalogue {
+    margin-top: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+.mimis-products__button {
+    width: fit-content;
+
+    padding: 20px 30px;
+    margin: 80px auto 0;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+
+    border: none;
+    outline: none;
+    background: var(--secondary-color);
+    border-radius: 64px;
+}
+
+.mimis-products__button img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+
+    margin-left: 21px;
+}
+
+.mimis-products__card {
+    padding: 24px;
+    min-width: 260px;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 50px;
+    background: #b1454a;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.mimis-products__card-image {
+    width: 110px;
+    height: 84px;
+    object-fit: contain;
+}
+
+.mimis-products__card-title {
+    margin-top: 18px;
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+
+}    
+
+.mimis-products__card-details {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.mimis-products__card-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mimis-products__card-rating img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.mimis-products__card-rating p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.mimis-products__card-price {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.mimis-products__card.active-card {
+    background: #fff;
+    min-width: 340px;
+}
+
+.mimis-products__card.active-card {
+    background: #fff;
+    min-width: 340px;
+}
+
+.mimis-products__card.active-card .mimis-products__card-image {
+    width: 240px;
+    height: 160px;
+}
+
+.mimis-products__card.active-card .mimis-products__card-title {
+    color: var(--black-500);
+    font-size: 32px;
+}
+
+.mimis-products__card.active-card .mimis-products__card-rating img {
+    width: 32px;
+    height: 32px;
+}
+
+.mimis-products__card.active-card .mimis-products__card-rating p {
+    font-size: 24px;
+    color: var(--gray-100);
+}
+
+.mimis-products__card.active-card .mimis-products__card-price {
+    font-size: 24px;
+    color: var(--secondary-color);
+}
